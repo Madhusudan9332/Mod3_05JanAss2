@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <style>
+        body{
+            background-image: url(./images/cover.png);
+            background-size: cover;
+            backdrop-filter: brightness(40%);
+            margin: 0;
+        }
+        nav{
+            width: 100%;
+            text-align: right;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        nav .leftSide{
+            width: 25%;
+            float: left;
+        }
+        nav .leftSide img{
+            width: 60%;
+        }
+        nav .rightSide{
+            display: inline-block; 
+            width: 70%;
+            padding-right: 10px;
+        }
+        nav button{
+            background-color: rgb(246, 10, 10);
+            color: white;
+            border-radius: 10%;
+        }
+        nav a{
+            background-color: rgb(246, 10, 10);
+            color: white;
+            border-radius: 10%;
+            text-decoration: none;
+        }
+
+        main{
+            color: white;
+            text-align: center;
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        main section{
+            width: fit-content;
+            display: inline-block;
+        }
+        p{
+            font-size: 1 rem;
+        }
+        span + p{
+            font-size: 1.5rem;
+            margin: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="leftSide"><img src="./images/Netflix logo.png" alt="Netflix logo"></div>
+            <div class="rightSide">
+                <a href="https://www.netflix.com/in/login">Sign In</a>
+                <button>Register</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <span style="font-size: 3rem;">Unlimited movies, TV shows and more.</span>
+            <p>Watch anywhere. Cancel anytime.</p>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
